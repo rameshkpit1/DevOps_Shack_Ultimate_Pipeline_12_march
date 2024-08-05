@@ -5,6 +5,7 @@
 #!/bin/bash
 
 # Install OpenJDK 17 JRE Headless
+sudo apt-get update
 sudo apt install openjdk-17-jre-headless -y
 
 # Download Jenkins GPG key
